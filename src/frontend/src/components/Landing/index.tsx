@@ -19,6 +19,7 @@ class Landing extends React.Component {
           <div className="overflow-x-hidden relative">
             <div className="mw8 center flex-l ph4 pb5 mt5">
               <h1 className="f3 f2-ns fw9 w-80-l mr5-l mt0 mb3">
+<<<<<<< HEAD
                 Making Record <br />
                 Expungement Affordable
               </h1>
@@ -37,6 +38,19 @@ class Landing extends React.Component {
             </div>
 
             {/*
+=======
+                Making Record <br/>Expungement Affordable
+              </h1>
+              <p className="f5 lh-title mw6">
+                <span className="db w4 bb bw2 b--blue pt3 mt2 mb2"></span>
+                RecordSponge is software that helps community organizations quickly 
+                analyze an individual’s criminal history to determine if they qualify 
+                to have their records expunged.
+              </p>
+            </div>
+
+{/*
+>>>>>>> Updates styles and content for landing page to focus on clients
             <div className="f5 mh3">
               <div className="mw8 center bg-gray-blue-2 shadow br4 pa4 ph5-l mb5">
                 <h2 className="f3 fw6 mb3">
@@ -83,6 +97,7 @@ class Landing extends React.Component {
             </div>
 */}
 
+<<<<<<< HEAD
             <PartnerTable></PartnerTable>
             <div className="bg-lightest-blue1 pv6">
               <div className="mw7 center">
@@ -105,12 +120,160 @@ class Landing extends React.Component {
                         className="fas fa-arrow-right lh-solid pt1 pl2"
                         aria-hidden="true"
                       ></span>
+=======
+            <div className="bg-navy pv6">
+              <div className="mw7 center">
+                <div className="mh4">
+                  <h2 className="white tc f3 f2-ns fw9 mb3">
+                    Are you looking to clear your record?
+                  </h2>
+                  <p className="white tc center mw6 mb4">
+                    Select a partner below near you. They can provide your analysis and help you file for expungement.
+                  </p>
+                </div>
+                <div className="ba bw3 br3 b--lightest-blue1 bg-white mb6">
+                  <h3 className="f3 fw9 pa4">
+                    Partners
+                  </h3>
+                  <ul className="list">
+
+                    <li className="bt bw2 b--lightest-blue1">
+                      <button className="flex-ns w-100 relative navy hover-blue pv3 ph3 ph4-ns">
+                        <span className="w-70 db fw7 pr3 mb2 mb0-ns">
+                          Portland Community College
+                        </span>
+                        <span className="w-30 pr3">
+                          Northeast Portland
+                        </span>
+                        <span className="absolute top-0 right-0 pt3 ph3">
+                          <span aria-hidden="true" className="fas fa-angle-down"></span>
+                        </span>
+                      </button>
+                      <div className="bl bw2 f5 b--blue pb3 ph3 ml3 ml4-ns" hidden>
+                        Here I am! I am the buried treasure!
+                      </div>
+                    </li>
+
+                    <li className="bt bw2 b--lightest-blue1">
+                      <button className="flex-ns w-100 relative navy hover-blue pv3 ph3 ph4-ns">
+                        <span className="w-70 db fw7 pr3 mb2 mb0-ns">
+                          Qiu-qiu Law
+                        </span>
+                        <span className="w-30 pr3">
+                          Portland
+                        </span>
+                        <span className="absolute top-0 right-0 pt3 ph3">
+                          <span aria-hidden="true" className="fas fa-angle-up"></span>
+                        </span>
+                      </button>
+                      <div className="bl bw2 f5 b--blue pb3 ph3 ml3 ml4-ns">
+                        <ul className="list mb3">
+                          <li className="flex-ns mb3">
+                            <span className="w4-ns db fw6 mr3">Analysis Cost</span>
+                            <span>Free</span>
+                          </li>
+                          <li className="flex-ns mb3">
+                            <span className="w4-ns db fw6 mr3">Filing Cost</span>
+                            <span>NA</span>
+                          </li>
+                          <li className="flex-ns mb3">
+                            <span className="w4-ns db fw6 mr3">Court Fees</span>
+                            <span>Not Included</span>
+                          </li>
+                          <li className="flex-ns mb3">
+                            <span className="w4-ns db fw6 mr3">Income Restrictions</span>
+                            <span>Under 45k Annual</span>
+                          </li>
+                          <li className="flex-ns mb3">
+                            <span className="w4-ns db fw6 mr3">Locations</span>
+                            <span>Portland Metro</span>
+                          </li>
+                        </ul>
+                        <p className="mw6 bt b--black-10 pv3">
+                          Send an email with your full name, previous names (including aliases and maiden names), and date of birth.
+                        </p>
+                        <ul className="list mb3">
+                          <li className="fw6 mb3">
+                            email@domain.com
+                          </li>
+                          <li className="fw6 mb2">
+                            555-555-5555
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li className="bt bw2 b--lightest-blue1">
+                      <button className="flex-ns w-100 relative navy hover-blue pv3 ph3 ph4-ns">
+                        <span className="w-70 db fw7 pr3 mb2 mb0-ns">
+                          Criminals Anonymous
+                        </span>
+                        <span className="w-30 pr3">
+                          East Portland
+                        </span>
+                        <span className="absolute top-0 right-0 pt3 ph3">
+                          <span aria-hidden="true" className="fas fa-angle-down"></span>
+                        </span>
+                      </button>
+                      <div className="bl bw2 f5 b--blue pb3 ph3 ml3 ml4-ns" hidden>
+                        Here I am! I am the buried treasure!
+                      </div>
+                    </li>
+
+                    <li className="bt bw2 b--lightest-blue1">
+                      <button className="flex-ns w-100 relative navy hover-blue pv3 ph3 ph4-ns">
+                        <span className="w-70 db fw7 pr3 mb2 mb0-ns">
+                          Probation and Parole, Community Justice Center
+                        </span>
+                        <span className="w-30 pr3">
+                          Medford
+                        </span>
+                        <span className="absolute top-0 right-0 pt3 ph3">
+                          <span aria-hidden="true" className="fas fa-angle-down"></span>
+                        </span>
+                      </button>
+                      <div className="bl bw2 f5 b--blue pb3 ph3 ml3 ml4-ns" hidden>
+                        Here I am! I am the buried treasure!
+                      </div>
+                    </li>
+
+                  </ul>
+                </div>
+
+                <span className="db w4 center bb bw2 b--blue mb3"></span>
+                <p className="tc white mw7 mh4">Over 1,060 analyses delivered as of June 11, 2020</p>
+
+              </div>
+            </div>
+
+            <div className="bg-lightest-blue1 pv6">
+              <div className="mw7 center">
+                <div className="mh4">
+                  <h2 className="tc f3 f2-ns fw9 mb3">
+                    Are you interested in providing expungement help with this tool?
+                  </h2>
+                  <p className="tc center mw6 mb4">
+                    We only ask that you provide your contact details and obtain OECI credentials.
+                  </p>
+                  <div className="tc mb6">
+                    <a className="inline-flex items-center f3 blue hover-navy fw7" href="/manual#overview">
+                      <span>Learn More</span>
+                      <span className="fas fa-arrow-right lh-solid pt1 pl2" aria-hidden="true"></span>
+>>>>>>> Updates styles and content for landing page to focus on clients
                     </a>
                   </div>
                   <span className="db w4 center bb bw2 b--blue mb3"></span>
                   <p className="mw7 tc f4 f3-ns fw6 center mb3">
+<<<<<<< HEAD
                     “RecordSponge has enabled me to help five times as many
                     people clear their record.”
+=======
+                    “RecordSponge has enabled me to help five times as many 
+                    people clear their record.”
+                  </p>
+                  <p className="mw7 tc center">
+                    Jane Doe, Signs of Hope
+>>>>>>> Updates styles and content for landing page to focus on clients
                   </p>
                   <p className="mw7 tc center">Jane Doe, Signs of Hope</p>
                 </div>
@@ -119,6 +282,7 @@ class Landing extends React.Component {
 
             <div className="mw8 flex-l center ph4 pv6">
               <div className="w-50-l mb5">
+<<<<<<< HEAD
                 <h2 className="f3 f2-ns fw9 mb3">Who We Are</h2>
                 <p className="lh-copy mb3">
                   <a
@@ -146,6 +310,33 @@ class Landing extends React.Component {
                 </p>
                 <p className="lh-copy mb3">
                   <a className="link bb hover-dark-blue" href="/about">
+=======
+                <h2 className="f3 f2-ns fw9 mb3">
+                  Who We Are
+                </h2>
+                <p className="lh-copy mb3">
+                  <a className="link bb hover-dark-blue" 
+                    href="http://www.codeforpdx.org">
+                    Code for PDX
+                  </a> and{" "}
+                  <a className="link bb hover-dark-blue" 
+                    href="https://www.qiu-qiulaw.com">
+                    Qiu-qiu Law
+                  </a> are actively developing analytical software to help 
+                  expungement providers quickly determine which items on an 
+                  applicant's record are eligible for expungement.
+                </p>
+                <p className="lh-copy mb3">
+                  The goal of this project is to make expungement available 
+                  to all Oregonians, regardless of their ability to pay. 
+                  It further seeks to provide these services in the communities 
+                  that need them the most.
+                </p>
+                <p className="lh-copy mb3">
+                  <a className="link bb hover-dark-blue"
+                    href="/about"
+                  >
+>>>>>>> Updates styles and content for landing page to focus on clients
                     More About Us
                   </a>
                 </p>
@@ -217,11 +408,15 @@ class Landing extends React.Component {
                         mask="url(#b)"
                       ></path>
                     </g>
+<<<<<<< HEAD
                     <path
                       fill="#F3F8FF"
                       fillRule="nonzero"
                       d="M252 117v9H5v-9z"
                     ></path>
+=======
+                    <path fill="#F3F8FF" fillRule="nonzero" d="M252 117v9H5v-9z"></path>
+>>>>>>> Updates styles and content for landing page to focus on clients
                     <g transform="translate(77 70.61)">
                       <mask id="d" fill="#fff">
                         <use xlinkHref="#c"></use>
@@ -320,6 +515,10 @@ class Landing extends React.Component {
             <div className="bg-lightest-blue1 pv6">
               <div className="ph4">
                 <div className="mw7 center">
+<<<<<<< HEAD
+=======
+
+>>>>>>> Updates styles and content for landing page to focus on clients
                   <h3 className="f3 f2-ns fw9 mb3">Expungement in Oregon</h3>
                   <p className="lh-copy mb5">
                     For many folks who have had run-ins with the criminal
@@ -388,7 +587,11 @@ class Landing extends React.Component {
                 </p>
                 <p className="mw6 lh-copy mb4">
                   The service is intended to be accompanied by legal advice.
+<<<<<<< HEAD
                   <br />
+=======
+                  <br/>
+>>>>>>> Updates styles and content for landing page to focus on clients
                   The service is not standalone legal advice.
                 </p>
               </div>
