@@ -10,12 +10,16 @@ export default class PartnerTable extends React.Component {
     return (
       <div>
       <Disclosure>
-        <DisclosureButton><h3 className="fw7 mb2">Portland community college</h3></DisclosureButton>
+          <DisclosureButton>
+                        <div className="flex-ns  bg-white br3 pa3 ba b--white hover-b-blue">
+                          <div className="w-50-ns fw6 pa2 pr3">
+                            Portland Community College
+                          </div>
+                          <div className="w-50-ns pa2 pr3">Northeast Portland</div>
+                        </div>
+
+        </DisclosureButton>
         <DisclosurePanel>Here I am! I am the buried treasure!</DisclosurePanel>
-      </Disclosure>
-       <Disclosure>
-       <DisclosureButton>Find out what lies beneath</DisclosureButton>
-       <DisclosurePanel>Here I am! I am the buried treasure!</DisclosurePanel>
      </Disclosure></div>
     );
 }
