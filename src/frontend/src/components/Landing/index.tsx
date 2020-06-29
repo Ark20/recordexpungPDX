@@ -96,9 +96,30 @@ class Landing extends React.Component {
               </div>
             </div>
 */}
+            <div className="bg-navy pv6">
+              <div className="mw7 center">
+                <div className="mh4">
+                  <h2 className="white tc f3 f2-ns fw9 mb3">
+                    Are you looking to clear your record?
+                  </h2>
+                  <p className="white tc center mw6 mb4">
+                    Select a partner below near you. They can provide your
+                    analysis and help you file for expungement.
+                  </p>
+                </div>
+                <PartnerTable></PartnerTable>
+                <span className="db w4 center bb bw2 b--blue mb3"></span>
+                <p className="tc white mw7 mh4">
+                  Over 1,060 analyses delivered as of June 11, 2020
+                </p>
+              </div>
+            </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             <PartnerTable></PartnerTable>
+=======
+>>>>>>> only table is in component
             <div className="bg-lightest-blue1 pv6">
               <div className="mw7 center">
                 <div className="mh4">
@@ -120,6 +141,7 @@ class Landing extends React.Component {
                         className="fas fa-arrow-right lh-solid pt1 pl2"
                         aria-hidden="true"
                       ></span>
+<<<<<<< HEAD
 =======
             <div className="bg-navy pv6">
               <div className="mw7 center">
@@ -271,6 +293,8 @@ class Landing extends React.Component {
                       <span>Learn More</span>
                       <span className="fas fa-arrow-right lh-solid pt1 pl2" aria-hidden="true"></span>
 >>>>>>> Updates styles and content for landing page to focus on clients
+=======
+>>>>>>> only table is in component
                     </a>
                   </div>
                   <span className="db w4 center bb bw2 b--blue mb3"></span>
@@ -278,6 +302,7 @@ class Landing extends React.Component {
 <<<<<<< HEAD
                     “RecordSponge has enabled me to help five times as many
                     people clear their record.”
+<<<<<<< HEAD
 =======
                     “RecordSponge has enabled me to help five times as many 
                     people clear their record.”
@@ -285,6 +310,8 @@ class Landing extends React.Component {
                   <p className="mw7 tc center">
                     Jane Doe, Signs of Hope
 >>>>>>> Updates styles and content for landing page to focus on clients
+=======
+>>>>>>> only table is in component
                   </p>
                   <p className="mw7 tc center">Jane Doe, Signs of Hope</p>
                 </div>
@@ -321,6 +348,7 @@ class Landing extends React.Component {
                 </p>
                 <p className="lh-copy mb3">
                   <a className="link bb hover-dark-blue" href="/about">
+<<<<<<< HEAD
 =======
                 <h2 className="f3 f2-ns fw9 mb3">
                   Who We Are
@@ -348,6 +376,8 @@ class Landing extends React.Component {
                     href="/about"
                   >
 >>>>>>> Updates styles and content for landing page to focus on clients
+=======
+>>>>>>> only table is in component
                     More About Us
                   </a>
                 </p>
@@ -527,9 +557,12 @@ class Landing extends React.Component {
               <div className="ph4">
                 <div className="mw7 center">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> Updates styles and content for landing page to focus on clients
+=======
+>>>>>>> only table is in component
                   <h3 className="f3 f2-ns fw9 mb3">Expungement in Oregon</h3>
                   <p className="lh-copy mb5">
                     For many folks who have had run-ins with the criminal
@@ -600,9 +633,12 @@ class Landing extends React.Component {
                   The service is intended to be accompanied by legal advice.
 <<<<<<< HEAD
                   <br />
+<<<<<<< HEAD
 =======
                   <br/>
 >>>>>>> Updates styles and content for landing page to focus on clients
+=======
+>>>>>>> only table is in component
                   The service is not standalone legal advice.
                 </p>
               </div>
