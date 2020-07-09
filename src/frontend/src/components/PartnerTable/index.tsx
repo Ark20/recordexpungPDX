@@ -42,7 +42,6 @@ class PartnerTable extends React.Component<{}, any> {
     let partners;
     let toggleOpen = () => {
       this.setState({ open: !this.state.open });
-      console.log(this.state.open);
     };
 
     partners = partnerData.map((partner, index) => (
